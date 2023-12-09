@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Share Application | Rajan Kumar | Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets\profile pic.png">
+</head>
+
+<body>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+
+    <div id="wrapper">
+
+        <div class="card-wrapper">
+            
+            <div>
+            <img src="assets\raj.png" alt="image">
+        </div>
+
+            <div class="user-name">
+                <h2>Rajan Kumar</h2>
+            </div>
+
+            <div class="designation">
+                <h3>Developer | Engineer</h3>
+            </div>
+
+            <div class="bottom-group">
+
+                <button onclick="openModal()" class="btn-share btn-card">
+                    <i class="fa-solid fa-share"></i>
+                    <div>share my profile</div>
+                </button>
+                <button class="btn-follow btn-card">Follow me</button>
+
+            </div>
+
+        </div>
+    </div>
+
+
+     <!-- MODAL COMPONENT -->
+
+    <div class="modal">
+
+        <div class="modal-header">
+            <h1>Share My Profile</h1>
+            <div>
+            <i class="fa-solid fa-xmark close" onclick="closeModal()"></i>
+        </div>
+        </div>
+
+        <div>
+            <h3>Share this via</h3>
+        
+        <div class="icon-container">
+
+            <a href="https://www.linkedin.com/in/rajan-kumar-09b87720b/" class="icon" id="linkedin">
+            <i class="fa-brands fa-linkedin-in"></i>
+                
+            </a>
+            <a href="https://github.com/iamrajank" class="icon" id="github">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="mailto:rajankrpoddar@gmail.com" class="icon" id="gmail">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+
+            <a href="https://api.whatsapp.com/send/?phone=917091575737&text=hey%20Rajan%20kumar,%20I%20get%20this%20no.%20from%20your%20Website%20&type=phone_number&app_absent=0" class="icon" id="whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+
+            </a>
+
+            <a href="#" class="icon" id="portfolio">
+                <i class="fa-solid fa-user-tie"></i>
+            </a>
+        </div>
+    </div>
+</div>
+     
+<div class="overlay" onclick="closeModal()"></div>
+
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
