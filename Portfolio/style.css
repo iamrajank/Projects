@@ -367,20 +367,35 @@ section .title::after {
   top: 0;
   background: crimson;
 }
+.skills-content .right .python::before {
+  width: 80%;
+}
+.skills-content .right .js::before {
+  width: 65%;
+}
 .skills-content .right .html::before {
   width: 90%;
 }
 .skills-content .right .css::before {
-  width: 60%;
+  width: 65%;
 }
-.skills-content .right .js::before {
-  width: 80%;
-}
-.skills-content .right .php::before {
+.skills-content .right .react::before {
   width: 50%;
 }
-.skills-content .right .mysql::before {
+.skills-content .right .sql::before {
   width: 70%;
+}
+.skills-content .right .mysql::before {
+  width: 60%;
+}
+.skills-content .right .git::before {
+  width: 70%;
+}
+.skills-content .right .github::before {
+  width: 70%;
+}
+.skills-content .right .ml::before {
+  width: 60%;
 }
 
 /* teams section styling */
