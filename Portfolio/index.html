@@ -55,7 +55,7 @@
 <ul class="menu">
 <li><a href="#home" class="menu-btn">Home</a></li>
 <li><a href="#about" class="menu-btn">About</a></li>
-<li><a href="#services" class="menu-btn">Feild of knowledge</a></li>
+<li><a href="#services" class="menu-btn">Feild Of Knowledge</a></li>
 <li><a href="#skills" class="menu-btn">Skills</a></li>
 <li><a href="#teams" class="menu-btn">Projects</a></li>
 <li><a href="#contact" class="menu-btn">Contact</a></li>
@@ -113,7 +113,7 @@
 
 <section class="services" id="services">
 <div class="max-width">
-<h2 class="title">Feild of knowledge</h2>
+<h2 class="title">Feild Of Knowledge</h2>
 
 <!-- services box  -->
 
@@ -264,7 +264,7 @@
 <img src="assets\weather.png" alt="weather image">
 <div class="text">Weather Web Application</div>
 
-<p> Developed a responsive Weather Application.It uses an API to retrieve real-time meteorological data and display it.</p>
+<!-- <p> Developed a responsive Weather Application.It uses an API to retrieve real-time meteorological data and display it.</p> -->
 <a href="https://weatherwebapplications.netlify.app/">Link</a>
 
 </div>
@@ -273,7 +273,7 @@
 <div class="box">
 <img src="assets\sharemodelapp.png" alt="share model image">
 <div class="text">Share Model Web Application</div>
-<p>Built with HTML, CSS, JavaScript.</p>
+<!-- <p>Built with HTML, CSS, JavaScript.</p> -->
   <a href="https://sharemodelapp.netlify.app/">Link</a>
 </div>
 </div>
@@ -281,13 +281,13 @@
 <div class="card">
 <div class="box">
 <img src="assets\tic tac toe image.png" alt="image">
-<div class="text">Tic Tac Toe</div>
+<div class="text">Tic Tac Toe Web Application</div>
 <p></p>
   <a href="https://tictactoewebapp.netlify.app/">Link</a>
 </div>
 </div>
 
-
+<!-- 
 <div class="card">
 <div class="box">
 <img src="images/movie.png" alt="">
@@ -295,18 +295,19 @@
 <p>Designed and developed a static web application using HTML, CSS, and Javascript that allows users to search for movie
   details and perform movie searches</p>
 </div>
-</div>
- <div class="card"> 
+</div> -->
+
+ <!-- <div class="card"> 
 <div class="box">
 <img src="images/python.png" alt="">
 <div class="text">Dimond price Prediction</div>
-<p>Machine Learning Based Model with Accuracy of 93 Percent</p>
-<p> Developed a machine learning model to accurately predict diamond prices based on their various characteristics and
+<p>Machine Learning Based Model with Accuracy of 93 Percent</p> 
+ <p> Developed a machine learning model to accurately predict diamond prices based on their various characteristics and
   market trends. The project involved analyzing a dataset of diamond features and applying regression techniques to
   estimate their market values
   </p>
 </div>
-</div> 
+</div>  -->
 </div>
 </div>
 </section>
@@ -343,27 +344,32 @@
 </div>
 </div>
 
+
 <div class="column right">
 <div class="text">Message me</div>
-<form action="https://formsubmit.co/a7a3b28af6401e3c57f206f399b1e309" method="POST">
+
+<form name="submit-to-google-sheet">
 <div class="fields">
 <div class="field name">
-<input type="text" placeholder="Name" required>
+<input type="text" name = "Name" placeholder="Name" required>
 </div>
 <div class="field email">
-<input type="email" placeholder="Email" required>
+<input type="email" name = "Email" placeholder="Email" required>
 </div>
 </div>
 <div class="field">
-<input type="text" placeholder="Subject" required>
+<input type="text" name = "Subject" placeholder="Subject" required>
 </div>
 <div class="field textarea">
-<textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+<textarea cols="30" rows="10" name = "Message" placeholder="Message" required></textarea>
 </div>
 <div class="button-area">
 <button type="submit">Send message</button>
  </div>
 </form>
+<span id="msg"></span>
+
+
 </div>
 </div>
 </div>

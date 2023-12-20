@@ -697,3 +697,10 @@ footer span a:hover {
     line-height: 38px;
   }
 }
+
+
+#msg{
+  color:#f14406 ;
+  margin-top:5px ;
+  display: block;
+}
