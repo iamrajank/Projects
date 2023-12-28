@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Application</title>
+
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            
+        }
+
+        .bg{
+            border: 1px solid red;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: skyblue;
+        }
+
+        .container{
+           /* border: 1px solid black;*/
+            height: 180px;
+            width: 220px;
+            
+
+        }
+        .para{
+            padding: 10px;
+            margin-top: 25px;
+            margin-left: 10px;
+            color: blueviolet;
+        }
+        .btn{
+           
+            display: flex;
+            width: 160px;
+            height: 30px;
+            margin: auto;
+            background-color: white;
+            border: black;
+            border-radius: 4px;
+            
+           
+        }
+        #btn1{
+            margin-left: 38px;
+            cursor: pointer;
+            margin-top: 2px;
+            margin-bottom: 2px;
+            
+            
+        }
+        #btn2{
+            margin-right: 40px;
+            margin-top: 2px;
+            margin-bottom: 2px;
+            cursor: pointer;
+        }
+        #content{
+            padding: 6px;
+            margin-left: 8px;
+            margin-right: 8px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+
+        <div class="bg">
+            <div class="container">
+
+                <div class="para">
+                    <p>Increament and Decreament</p>
+                </div>
+
+                <div class="btn">
+                    <button type="button" id="btn1" onclick="decrement()">
+                        <i class="fa-solid fa-minus"></i>
+                    </button>
+                    <div id="content">
+                        0
+
+                    </div>
+                   
+                    <button type="button" id="btn2" onclick="increment()">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
