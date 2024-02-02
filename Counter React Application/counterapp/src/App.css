@@ -1,0 +1,67 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #344151;
+  gap: 10px;
+}
+
+.heading{
+  color: #0398d4;
+  font:medium
+}
+
+.btn{
+  background: white;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px;
+  border-radius: 2px;
+  font-size: 25px;
+  color: #344151;
+  cursor: pointer;
+}
+.btn1{
+  border-radius: 4px;
+  text-align: center;
+  width: 20px;
+  padding: 8px;
+  margin: 4px;
+  text-align: center;
+  cursor: pointer;
+
+}
+.para{
+  font: bold;
+  font-size: 20px;
+  margin-top: 7px;
+}
+.btn2{
+  border-radius: 4px;
+  text-align: center;
+  width: 20px;
+  padding: 8px;
+  margin: 4px;
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+
+.btn3{
+  border-radius: 8px;
+  text-align: center;
+  width: 65px;
+  padding: 8px;
+  margin: 4px;
+  text-align: center;
+  font: bold;
+  cursor: pointer;
+  background: aqua;
+  
+}
