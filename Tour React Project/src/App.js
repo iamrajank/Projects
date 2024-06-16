@@ -11,6 +11,12 @@ const App = () => {
     setTours(newTours);
   }
 
+  // Example of above code 
+  // let nums = 4
+  // let a = [1,2,3,4,5,6,7]
+  // let b = a.filter( (num) => num !== nums)
+  // console.log(b)
+
   if(tours.length === 0) {
     return (
         <div className="refresh">
